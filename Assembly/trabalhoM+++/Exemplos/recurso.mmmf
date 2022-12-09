@@ -1,0 +1,14 @@
+MOV 99,B;
+		MOV 88,C;
+	
+		PUSH B;
+		PUSH C;
+
+		//    	      88 (C)
+		//    	      99 (B)
+		// ==============<===PILHA
+
+		POP 	B;
+		POP  C;
+
+FIM:		JMP FIM;

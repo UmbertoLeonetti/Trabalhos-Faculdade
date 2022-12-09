@@ -1,0 +1,5 @@
+MOV 00,A;
+SPEED:
+	MOV A,OUT3;
+	INC A,A;
+	JMP SPEED;

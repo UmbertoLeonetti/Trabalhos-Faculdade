@@ -1,0 +1,21 @@
+MOV  03,B;
+	MOV  04,C;
+	MOV  05,D;
+	MOV  06,E;
+	
+	PUSH B;
+	PUSH C;
+	PUSH D;
+	PUSH E;
+
+	MOV 99,B;
+	MOV 99,C;
+	MOV 99,D;
+	MOV 99,E;
+
+	POP E;
+	POP D;
+	POP C;
+	POP B;
+
+FIM: 	JMP FIM;
