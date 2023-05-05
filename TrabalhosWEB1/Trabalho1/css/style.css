@@ -23,7 +23,21 @@ footer {
 float:right;
 }
 
-.logo {
-float: left;
-height: 50px;
+.identificacao img{
+    border: 3px solid black;
+    width: 50%;
 }
+
+.logo img {
+    width: 20%;
+    height: auto;
+ }
+
+
+ .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+  }
+  
