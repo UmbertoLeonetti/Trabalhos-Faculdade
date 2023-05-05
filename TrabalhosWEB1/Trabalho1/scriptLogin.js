@@ -1,13 +1,10 @@
-const loginInput = document.getElementById('login');
-const passwordInput = document.getElementById('password');
-const autenticarBtn = document.getElementById('autenticar');
-
-autenticarBtn.addEventListener('click', function(event) {
-	event.preventDefault();
-	if (loginInput.value.trim() === '' || passwordInput.value.trim() === '') {
-		alert('Informe os dados de autenticação');
+function autenticar() {
+	let loginInput = document.getElementById('login').value.trim();
+	let passwordInput = document.getElementById('password').value.trim();
+	if (loginInput == "" || passwordInput == "") {
+		alert("“Usuário não autenticado");
 	} else {
-		localStorage.setItem('authenticatedUser', loginInput.value);
+		localStorage.setItem('authenticatedUser', loginValue);
 		window.location.href = 'index.html';
 	}
-});
+}
