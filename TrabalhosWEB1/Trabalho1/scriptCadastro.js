@@ -9,4 +9,15 @@ function onInit() {
     }
 
 
-
+    function cadastrar() {
+        var loginInput = document.getElementById('firstname').value;
+        var passwordInput = document.getElementById('password').value;
+        if (loginInput == "" || passwordInput == "") {
+            alert("Informe os dados obrigatorios de cadastro.");
+        }else{
+            localStorage.setItem("login",loginInput);
+            localStorage.setItem("password",passwordInput);
+            window.history.back();
+    
+        }
+    };

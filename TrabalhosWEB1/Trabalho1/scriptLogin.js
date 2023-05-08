@@ -6,7 +6,7 @@ function autenticar() {
 	}else{
 		localStorage.setItem("login",loginInput);
 		localStorage.setItem("password",passwordInput);
-		location.reload();
+		window.history.back();
 
 	}
 };
