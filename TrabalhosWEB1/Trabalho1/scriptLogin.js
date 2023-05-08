@@ -1,6 +1,6 @@
 function autenticar() {
-	let loginInput = document.getElementById('login').value.trim();
-	let passwordInput = document.getElementById('password').value.trim();
+	let loginInput = document.getElementById('login').value;
+	let passwordInput = document.getElementById('password').value;
 	if (loginInput == "" || passwordInput == "") {
 		alert("Informe os dados de autenticação");
 	}
