@@ -15,17 +15,38 @@ footer {
     width: 100vw;
     border: 1px solid black;
     background-color: rgb(54, 52, 78);
-    font-family: 'MinhaFonte';
     font-size: 3em;
 }
 
 .identificacao {
-    float: right;
+float: right;
+display: inline-block;
 }
 
 .identificacao img {
-    border: 3px solid black;
-    width: 50%;
+    margin-top: 2px;
+    width: 5%;
+    height: auto;
+    position: absolute;
+    right: 20px;
+}
+
+.info-user {
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+    right: 140px;
+    position: absolute;
+    display: inline-block;
+    font-size: large;
+}
+
+.info-user p {
+font-size: large;
+}
+
+.logo {
+    display: inline-block;
 }
 
 .logo img {
@@ -33,10 +54,56 @@ footer {
     height: auto;
 }
 
-
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border: 1px solid black;
+.menu {
+    display: flex;
 }
+
+.menu ul li {
+    display: inline-block;
+    margin:  10px;
+    }
+    
+    .menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #00ff88;
+    border-radius: 5px;
+    background-color: #00ff88;
+    transition: all 0.5s ease;
+    }
+    
+    .menu ul li a:hover {
+    background-color: #345746;
+    border:2px solid #345746;
+    color: #000000;
+    }
+
+    @media screen and (min-width: 768px) {
+        /* Estilos para telas largas */
+        .menu {
+        position: absolute;
+       
+        }
+
+        .menu ul li {
+            display: grid;
+            margin:  10px;
+            }
+        }
+        
+        @media screen and (max-width: 767px) {
+        /* Estilos para telas menores */
+        .menu {
+        position: relative;
+        margin-top: 10px;
+        display: inline-block;
+        }
+
+        .menu ul li {
+            display: inline-block;
+            margin:  10px;
+            }
+        }
