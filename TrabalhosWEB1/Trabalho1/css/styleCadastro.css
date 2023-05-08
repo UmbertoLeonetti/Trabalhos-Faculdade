@@ -178,6 +178,51 @@ footer {
     font-size: 3em;
 }
 
+header {
+    position: sticky;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(52, 39, 92);
+    top: 0px;
+    font-family: 'Alkatra', cursive;
+    font-size: 3em;
+}
+
+.identificacao {
+float: right;
+display: inline-block;
+}
+
+.identificacao img {
+    margin-top: 2px;
+    width: 5%;
+    height: auto;
+    position: absolute;
+    right: 20px;
+}
+
+.info-user {
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+    right: 140px;
+    position: absolute;
+    display: inline-block;
+    font-size: large;
+}
+
+.info-user p {
+font-size: large;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
 @media screen and (max-width: 1330px){
     .form-image{
         display: none;

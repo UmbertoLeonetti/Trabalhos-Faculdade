@@ -3,8 +3,16 @@ function autenticar() {
 	let passwordInput = document.getElementById('password').value.trim();
 	if (loginInput == "" || passwordInput == "") {
 		alert("Informe os dados de autenticação");
-	} else {
-		localStorage.setItem('authenticatedUser', loginValue);
-		window.location.href = 'index.html';
 	}
 }
+function onInit() {
+	var login = "Não autenticado";
+	
+	localStorage.clear();
+	if(localStorage.getItem("login") != null){
+		login = localStorage.getItem("login").trim();
+	}
+	
+	document.getElementById("login").innerHTML = login;
+	console.log("lOGIN: "+login);
+	}
