@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleCadastro.css">
+    <script src="scriptCadastro.js"></script>
     <title>Cadastro</title>
 </head>
 
-<body>
+<body onload="onInit()">
     <header>
         <div class="logo">
             <a href="index.html"><img src="img/logo.png" alt="logo"></a>
@@ -19,12 +20,7 @@
         </div>
         <div class="info-user" id="login"></div>
     </header>
-    <div>
-        <select name="opcoes" id="">
-            <option value="1" selected>Normal</option>
-            <option value="2">Custom</option>
-        </select><br>
-    </div>
+
     <div class="container">
         <div class="form-image">
             <img src="carC.svg" alt="RepairCar">
@@ -59,7 +55,7 @@
                     </div>
                     <div class="input-box">
                         <label for="password">Senha</label>
-                        <input type="email" name="email" id="email" placeholder="Digite sua senha" required>
+                        <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
                     </div>
                     <div class="input-box">
                         <label for="Confirmpassword">Confirme sua senha</label>
@@ -90,6 +86,12 @@
                     </div>
                 </div>
             </form>
+            <div>
+                <select name="opcoes" id="option">
+                    <option value="1" selected>Normal</option>
+                    <option value="2">Custom</option>
+                </select>
+            </div>
         </div>
     </div>
     <footer>
