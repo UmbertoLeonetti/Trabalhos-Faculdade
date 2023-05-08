@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Sarala&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    background-color: #fde3a7d7;
+}
+p{
+    background-color: #6c63ff;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0ce94d;
+    padding: 1rem;
+}
+
+.form-imagev img{
+    width: 31rem;
+}
+
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    padding: 3rem;
+}
+
+.form-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button{
+    display: flex;
+    align-items: center;
+}
+
+.login-button button{
+    border: none;
+    background-color:  #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover{
+    background-color: #6b63fff1;
+    color: #fff;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: 1rem;
+    padding: 1rem;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+   background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+.input-box label,
+.gerder-title h6{
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder{
+    color: #000000be;
+}
+
+.gerder-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.gerder-input{
+    display: flex;
+    align-items: center;
+}
+
+.gerder-input input {
+    margin-right: 0.35rem;
+}
+
+.gerder-inputlabel {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #6b63fff1;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100vw;
+    border: 1px solid black;
+    background-color: #6c63ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 3em;
+}
+
+header {
+    position: sticky;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(52, 39, 92);
+    top: 0px;
+    font-family: 'Alkatra', cursive;
+    font-size: 3em;
+}
+
+.identificacao {
+float: right;
+display: inline-block;
+}
+
+.identificacao img {
+    margin-top: 2px;
+    width: 5%;
+    height: auto;
+    position: absolute;
+    right: 20px;
+}
+
+.info-user {
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+    right: 140px;
+    position: absolute;
+    display: inline-block;
+    font-size: large;
+}
+
+.info-user p {
+font-size: large;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 1330px){
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 50%;
+    }
+    .form{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+    .gender-inputs{
+        margin-top: 2rem;
+    }
+    .gender-group{
+        flex-direction: column;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}
