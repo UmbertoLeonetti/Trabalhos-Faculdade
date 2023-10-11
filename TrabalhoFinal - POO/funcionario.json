@@ -1,0 +1,102 @@
+[
+  {
+    "nome": "Joaozinho",
+    "cargo": "Garçom",
+    "horarioTrabalho": "09:00"
+  },
+  {
+    "nome": "Maria Santos",
+    "cargo": "Cozinheira",
+    "horarioTrabalho": "11:30"
+  },
+  {
+    "nome": "Carlos Oliveira",
+    "cargo": "Atendente de Caixa",
+    "horarioTrabalho": "10:00"
+  },
+  {
+    "nome": "Ana Pereira",
+    "cargo": "Auxiliar de Cozinha",
+    "horarioTrabalho": "08:30"
+  },
+  {
+    "nome": "Pedro Rodrigues",
+    "cargo": "Gerente",
+    "horarioTrabalho": "07:00"
+  },
+  {
+    "nome": "Mariana Costa",
+    "cargo": "Garçom",
+    "horarioTrabalho": "18:00"
+  },
+  {
+    "nome": "José Ferreira",
+    "cargo": "Cozinheiro",
+    "horarioTrabalho": "15:30"
+  },
+  {
+    "nome": "Fernanda Almeida",
+    "cargo": "Atendente de Caixa",
+    "horarioTrabalho": "12:00"
+  },
+  {
+    "nome": "Rafaela Santos",
+    "cargo": "Auxiliar de Cozinha",
+    "horarioTrabalho": "16:30"
+  },
+  {
+    "nome": "Gustavo Lima",
+    "cargo": "Garçom",
+    "horarioTrabalho": "14:00"
+  },
+  {
+    "nome": "Amanda Souza",
+    "cargo": "Cozinheira",
+    "horarioTrabalho": "13:00"
+  },
+  {
+    "nome": "Luiz Gomes",
+    "cargo": "Atendente de Caixa",
+    "horarioTrabalho": "11:00"
+  },
+  {
+    "nome": "Isabela Castro",
+    "cargo": "Auxiliar de Cozinha",
+    "horarioTrabalho": "09:30"
+  },
+  {
+    "nome": "Gabriel Rocha",
+    "cargo": "Gerente",
+    "horarioTrabalho": "08:00"
+  },
+  {
+    "nome": "Camila Oliveira",
+    "cargo": "Garçom",
+    "horarioTrabalho": "17:30"
+  },
+  {
+    "nome": "Ricardo Fernandes",
+    "cargo": "Cozinheiro",
+    "horarioTrabalho": "16:00"
+  },
+  {
+    "nome": "Patrícia Costa",
+    "cargo": "Atendente de Caixa",
+    "horarioTrabalho": "13:30"
+  },
+  {
+    "nome": "Juliana Ribeiro",
+    "cargo": "Auxiliar de Cozinha",
+    "horarioTrabalho": "12:30"
+  },
+  {
+    "nome": "Daniel Santos",
+    "cargo": "Garçom",
+    "horarioTrabalho": "15:00"
+  },
+  {
+    "nome": "Laura Almeida",
+    "cargo": "Cozinheira",
+    "horarioTrabalho": "14:30"
+  }
+]
